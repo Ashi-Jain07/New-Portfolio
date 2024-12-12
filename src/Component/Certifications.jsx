@@ -7,7 +7,7 @@ function Certifications() {
             <div id="Certifications" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-5 p-5 text-center">
                 {
                     certificates.map((certificate, index) => (
-                        <div key={index} className="border border-blue-400 mt-5 p-3 w-5/6 xl:h-72 h-80 relative place-items-center">
+                        <div key={index} className="border border-blue-400 mt-5 p-3 w-5/6 xl:h-72 h-80 relative place-items-center transform transition-transform duration-300 hover:translate-y-4 hover:scale-105">
                             <h2 className="mt-5 font-bold text-xl">{certificate.Name}</h2>
                             <p className="mt-4">{certificate.content}</p>
                             <a href={certificate.url}>

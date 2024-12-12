@@ -22,7 +22,7 @@ function Skills() {
     <>
       <h1 className="text-center text-3xl font-bold mt-20">Skills</h1>
       <div id="SKILLS" className="xmd:flex p-2 pl-4">
-        <section className="py-10 bg-gray-900 xmd:w-1/2 m-2">
+        <section className="py-10 bg-gray-900 xmd:w-1/2 m-2 items-center">
           <h2 className="text-3xl font-bold text-center mb-8">Technical Skills</h2>
           <div className="space-y-5">
             {technicalSkills.map((skill, index) => (
