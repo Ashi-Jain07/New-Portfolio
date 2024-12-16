@@ -11,6 +11,9 @@ export default {
       },
       screens: {
         'xmd': '850px'
+      },
+      width: {
+        '2.5/5': '41%'
       }
     },
     plugins: [],

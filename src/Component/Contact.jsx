@@ -7,7 +7,7 @@ function Contact() {
                 <input type="text" name="lastName" placeholder="Last Name" className="m-2 border border-black rounded-md sm:w-1/5 w-2/5 h-10 text-lg p-1" /><br />
                 <input type="tel" name="Phone no." placeholder="Phone No." className="m-2 border border-black rounded-md sm:w-1/5 w-2/5 h-10 text-lg p-1" />
                 <input type="email" name="email" placeholder="Email Id" className="m-2 border border-black rounded-md sm:w-1/5 w-2/5 h-10 text-lg p-1" /><br />
-                <textarea name="mytext" placeholder="Your Query" className="border border-black rounded-md p-1 sm:w-5/12 w-10/12 h-20" ></textarea><br />
+                <textarea name="mytext" placeholder="Your Query" className="border border-black rounded-md p-1 sm:w-2.5/5 w-10/12 h-24" ></textarea><br />
                 <button className="bg-blue-700 text-white p-1.5 text-lg mt-5 m-1 rounded-xl">Submit</button>
                 <button className="bg-blue-700 text-white p-1.5 text-lg mt-5 m-1 rounded-xl">Cancel</button>
             </form>
